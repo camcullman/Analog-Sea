@@ -1,0 +1,123 @@
+/*Element Selectors*/
+
+body {
+  background-color: #298eea;
+  padding-top: 30px;
+  color: black;
+  font-size: 16px;
+  font-family: 'Roboto', helvetica, black;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+legend {
+  font-size: 32px;
+  text-align: center;
+  padding-top: 20px;
+  }
+
+  /*Class Selectors*/
+
+/*logo*/
+.ASlogo {
+  height: 35px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding-bottom: 30px;
+}
+
+
+.Signupbox {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.signup-form fieldset {
+  border: none;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin: 0;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signup-form input, .signup-form select {
+  display: block;
+  width: 320px;
+  margin-bottom: 15px;
+}
+
+.signup-form input[type="radio"] {
+  width: auto;
+}
+
+.signup-form input {
+  padding: 3px;
+}
+
+.signup-form input:focus {
+  background-color: yellow;
+}
+
+.signup-form input::placeholder {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/*placeholder color for all browsers*/
+.signup-form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: gray;
+}
+.signup-form input::-moz-placeholder { /* Firefox 19+ */
+  color: gray;
+}
+.signup-form input:-ms-input-placeholder { /* IE 10+ */
+  color: gray;
+}
+.signup-form input:-moz-placeholder { /* Firefox 18- */
+  color: gray;
+}
+
+.signup-form select {
+  cursor: pointer;
+}
+
+.signup-form input:invalid {
+  border: 2px red solid;
+}
+
+.radio-group label, .radio-group input{
+  display: inline-block;
+}
+
+.signup-form button {
+  width: 320px;
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.signup-form button:focus {
+  border: 1px solid yellow;
+}
+
+.signincopy {
+  text-align: center;
+  color: white;
+}
+
+input, button {
+  outline: 0;
+}
+
